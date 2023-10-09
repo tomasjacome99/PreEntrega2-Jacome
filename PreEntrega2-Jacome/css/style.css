@@ -94,3 +94,19 @@ footer{
     overflow-wrap: break-word;
     width: 50%;
 }
+
+@media (max-width:767px) {
+    .content-pages div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        width: 100%;
+    }
+    .content-pages p{
+        width: 100%;
+    }
+    .content-pages{
+        padding: 10px 15px;
+
+    }
+}
