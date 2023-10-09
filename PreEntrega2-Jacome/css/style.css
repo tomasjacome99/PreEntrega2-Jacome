@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    background-color: #D8F4E8; 
+}
+
+h1, h2, h3 {
+    color: #6B8E23; 
+}
+
+p {
+    font-size: 16px; 
+}
+
+
+a {
+    color: #6B8E23; 
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: #fff; 
+    border: 2px solid #6B8E23; 
+    border-radius: 10px; 
+}
+.header-title img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-nav a img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover; 
+}
+h2{
+    text-align: center;
+}
+.twitter img{
+    height: 32px;
+    width: 32px;
+}
+.twitter {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+footer{
+    background-color: rgb(179, 232, 180);
+    padding: 10px 20px;
+}
+.nav-pages{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(179, 232, 180);
+}
+.content-pages{
+    margin: 50px 250px;
+}
+.content-pages div{
+    display: flex;
+    justify-content: space-between;
+}
+.maps{
+    justify-content: end;
+    display: flex;
+}
+.content-pages p{
+    inline-size: 60%;
+    overflow-wrap: break-word;
+    width: 50%;
+}
