@@ -107,6 +107,8 @@ footer{
     }
     .content-pages{
         padding: 10px 15px;
-
+        margin: 0 !important;
     }
+
 }
+
